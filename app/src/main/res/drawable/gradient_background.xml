@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <shape>
+        <shape android:paddingLeft="8dp" android:paddingRight="8dp">
             <gradient
                 android:angle="90"
-                android:startColor="#FFEFBA"
-                android:endColor="#e6f7f0"
+                android:startColor="#FEFBF6"
+                android:endColor="#F0F3FF"
                 android:type="linear"/>
-
-
+            <corners android:radius="0dp"/>
         </shape>
     </item>
-
+    <item android:drawable="@drawable/shadow"/> <!-- Gölge efekti için bir drawable kaynağı kullanılabilir -->
 </selector>
